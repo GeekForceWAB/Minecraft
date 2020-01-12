@@ -65,20 +65,23 @@ footer {
 }
 
 h1.hover {
-    color: #2D7DD2;
+    color: white;
     font-size: 5.5em;
 }
 
 h1.hover:hover {
     text-decoration: underline;
-    color: #97CC04;
-
+    color: rgb(195, 247, 54);
 }
 
 .section {
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
+}
+
+section {
+    padding: 0 250px 20px 250px;
 }
 
 h1.highlight:hover {
@@ -101,8 +104,19 @@ h1.latestEvent {
     font-size: 5.5em;
 }
 
-p.section {
-    padding: 0 250px 20px 250px;
+#pixelmon {
+    background-image: url(./img/001-1.PNG);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+h1.pixelmon {
+    color: white;
+    font-size: 5.5em;
 }
 
 .contact {
